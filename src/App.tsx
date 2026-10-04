@@ -3,7 +3,7 @@ import { ArrowDown, ArrowUpRight, Check, Clock3, Mail, MessageCircle, Phone, Sci
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 
-const phone = '+14583085129'
+const phone = '+14583085429'
 const email = 'prolificbarberingcompany@gmail.com'
 const bookingText = `sms:${phone}?body=${encodeURIComponent("Hi Prolific! I'd like to book an appointment.")}`
 const haircuts = [
@@ -90,7 +90,7 @@ function App() {
           <div className="section-eyebrow"><span />MAKE TIME FOR A FRESH CUT<span /></div>
           <h2 id="studio-title">Studio hours</h2>
           <div className="hours"><Clock3 size={20} aria-hidden="true" /><div><p>Monday – Saturday</p><strong>2:00 PM – 8:00 PM</strong></div></div>
-          <a className="contact-phone" href={`tel:${phone}`}>(458) 308-5129<ArrowUpRight size={18} /></a>
+          <a className="contact-phone" href={`tel:${phone}`}>(458) 308-5429<ArrowUpRight size={18} /></a>
           <a className="contact-email" href={`mailto:${email}`}>{email}</a>
           <Button asChild className="save-button" variant="outline"><a href="/Prolific-Barbering-Company.vcf" download onClick={() => notify('Contact ready — open the download to save.')}><UserRoundPlus />SAVE CONTACT</a></Button>
           <Button className="share-bottom" variant="ghost" onClick={share}><Share2 />Share this card</Button>

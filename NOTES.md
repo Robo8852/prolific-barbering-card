@@ -16,7 +16,7 @@ Two WhatsApp images downloaded locally on 2026-10-03:
 - `wa-180601-01.jpg`: original logo, studio hours, telephone, email, booking QR
 - `wa-180606-02.jpg`: all eight service prices
 
-Contact transcription: (458) 308-5129; prolificbarberingcompany@gmail.com.
+Phone confirmed and corrected by Leo: (458) 308-5429 (supersedes the photo transcription). Email transcribed from the photo: prolificbarberingcompany@gmail.com.
 Hours: Monday–Saturday, 2:00 PM–8:00 PM. Sunday hours are not specified and have not been invented.
 
 | Service | Price |
