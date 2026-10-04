@@ -2,6 +2,8 @@
 
 A lightweight, mobile-first digital business card based on the studio-hours and service-menu photos supplied by Leo.
 
+**Live:** https://prolific-barbering-card.vercel.app/
+
 ## Stack
 
 - Vite + React 19 + TypeScript
@@ -57,6 +59,6 @@ Production build and npm audit pass. Browser smoke tests checked:
 
 The project is ready for Vercel's Vite preset: build command `npm run build`, output directory `dist`.
 
-GitHub is the first delivery step; deployment is intentionally pending. After deployment, add absolute social-preview and canonical URLs to `index.html`, and the public URL to the vCard. Sharing already uses the current origin rather than a hardcoded development URL.
+Deployed to the `leo-reyes-projects` Vercel team and connected to this GitHub repository. Pushes to `main` trigger production deployments. `vercel.json` enforces the type-checked production build. Absolute social-preview and canonical URLs are set in `index.html`; the vCard includes the public URL. Sharing uses the current origin.
 
 See `NOTES.md` for source notes and remaining follow-ups.

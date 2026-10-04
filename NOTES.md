@@ -2,7 +2,12 @@
 
 ## Delivery status
 
-Built for GitHub first. Do not describe this as deployed until the Vercel step is complete.
+Created and pushed to GitHub first, then deployed to Vercel at Leo's request.
+
+Live: https://prolific-barbering-card.vercel.app/
+GitHub: https://github.com/Robo8852/prolific-barbering-card
+Vercel team/project: `leo-reyes-projects/prolific-barbering-card`
+GitHub integration is connected for automatic deployments.
 
 ## Source material
 
@@ -37,11 +42,9 @@ The reference labels the last four services “Add ons”; that grouping is pres
 
 ## Follow-ups
 
-1. **Vercel deployment:** create/link the project and GitHub integration, deploy production, verify the served build.
-2. **Social metadata:** after the public URL is confirmed, add an absolute `og:image` referencing `/og-image.png`, `og:url`, and a canonical link in `index.html`. Add `URL` to the vCard.
-3. **Booking URL:** the photographed QR could not be reliably decoded. `src/App.tsx` intentionally uses an honest “Text to book” action. Replace only when a verified booking URL is supplied.
-4. **Original artwork:** if the owner can supply a vector or high-resolution logo, replace the extracted `public/assets/prolific-logo.webp` and regenerate the social preview and touch icon.
-5. **Owner review:** confirm the transcribed contact details, current prices, and hours before distributing widely.
+1. **Booking URL:** the photographed QR could not be reliably decoded. `src/App.tsx` intentionally uses an honest “Text to book” action. Replace only when a verified booking URL is supplied.
+2. **Original artwork:** if the owner can supply a vector or high-resolution logo, replace the extracted `public/assets/prolific-logo.webp` and regenerate the social preview and touch icon.
+3. **Owner review:** confirm the transcribed contact details, current prices, and hours before distributing widely.
 
 ## QA
 
